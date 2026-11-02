@@ -62,7 +62,7 @@ const Card = ({
       <div className="w-20 h-0.5 bg-black"></div>
       <p className="pt-6 pb-2 text-3xl text-pretty">{topic}</p>
       <p className="font-light text-[18px] mb-10">{sub}</p>
-      <div className="my-4  border border-black/20 h-120 md:h-170 rounded-3xl flex flex-col overflow-hidden relative">
+      <div className="my-4  border border-black/20 h-120 md:h-150 rounded-3xl flex flex-col overflow-hidden relative">
         <div className="w-full h-[70%] relative">
           <Image
             src={img}
@@ -77,7 +77,7 @@ const Card = ({
           <p className="w-full text-xs md:text-[16px] md:h-[3500px]  font-light text-ellipsis">
             “{mess}”
           </p>
-          <div className="w-full h-full  border-t border-black/20 flex flex-col md:flex-row md:items-center md:justify-between p-2 ">
+          <div className="w-full h-full  border-t border-black/20 flex flex-col md:flex-row md:items-center md:justify-between p-2 pt-6">
             <div className="">
               <p className="text-sm md:text-[14px]">{name}</p>
               <p className="text-xs md:text-sm font-light ">{position}</p>

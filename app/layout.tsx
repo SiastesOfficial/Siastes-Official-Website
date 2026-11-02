@@ -17,7 +17,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={` ${neue.variable}  h-full antialiased`}>
       <body className="min-h-full flex flex-col w-full ">
         <div className="w-full flex max-sm:bg-grey flex-col items-center justify-center px-4 max-sm:border-b border-black/10">
-          <div className="w-full flex min-w-[320px] max-w-3xl items-center pb-3 pt-4 max-md:px-4 justify-between md:justify-center gap-3 ">
+          <div className="w-full flex min-w-[320px] max-w-3xl items-center pb-3 pt-4 max-md:px-4 justify-between md:justify-center gap-3 relative ">
             <Link
               href="/"
               className="py-3 md:px-4 md:bg-grey rounded-xl md:border border-violet-400/10">
@@ -27,7 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/" className="font-neue text-sm text-black/60">
                 Home
               </Link>
-              <Link href="/" className="font-neue text-sm text-black/60">
+              <Link href="/team" className="font-neue text-sm text-black/60">
                 Team
               </Link>
               {/* <Link href="/" className="font-neue text-sm text-black/60">

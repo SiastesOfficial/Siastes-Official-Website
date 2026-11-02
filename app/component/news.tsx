@@ -28,7 +28,7 @@ export default function News() {
 
 const NewsCard = () => {
   return (
-    <div className="w-full md:w-100 h-100 md:h-130 border border-black/20 overflow-hidden rounded-xl flex flex-col ">
+    <div className="w-full md:w-100 h-100 md:h-130 border border-black/20 overflow-hidden rounded-xl flex flex-col cursor-pointer ">
       <div className="w-full relative overflow-hidden h-[60%]">
         <Image
           src="/inovia-q3-2026-newsletter-800x450.webp"
