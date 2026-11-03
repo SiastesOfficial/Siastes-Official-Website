@@ -31,8 +31,8 @@ export default function Footer() {
               {" "}
               <p>QUICK LINKS</p>
               <ul className="mt-3">
-                <li>About Inovia </li>
-                <li> Discovery by Inovia and Northleaf</li>
+                <li>About Siastes </li>
+                <li> Discovery by  Siastesand Northleaf</li>
                 <li> Venture Scientist Fund</li>
               </ul>
             </div>
@@ -44,7 +44,7 @@ export default function Footer() {
               <p className="font-light text-3xl">Stay in touch</p>
               <div className="flex items-center">
                 <input className="w-full lg:w-80 h-12 border hover:outline-none p-4" />
-                <div className="px-6 h-12 bg-cyan-800 flex items-center justify-center text-white">
+                <div className="px-6 h-12 bg-violet-800 flex items-center justify-center text-white">
                   <p className="text-lg">Subscribe</p>
                 </div>
               </div>

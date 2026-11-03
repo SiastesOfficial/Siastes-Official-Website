@@ -5,31 +5,31 @@ export default function Partner() {
   return (
     <div className="w-full py-12 md:py-24 max-md:px-6">
       <h2 className="text-4xl md:text-5xl">
-        What it’s like to partner with Inovia
+        What it’s like to partner with Siastes
       </h2>
       <div className="py-12 flex flex-col md:flex-row items-center gap-10">
         <Card
-          topic="High Conviction, Across Stages"
+          topic="All-In Conviction"
           sub="When we're in, we're all in."
-          mess="From a Messenger chatbot to a profitable savings super app, Inovia was there at every stage. Not just with capital, but with the conviction to keep backing us through the hard turns. When you find investors who don’t flinch at the ups and downs and don’t disappear when things get difficult, you build differently. That consistency and belief changed our outcome."
+          mess="From our early days to becoming a profitable super app, Siastes was right there. They didn't just write a check—they backed us through the hard pivots. Having investors who don't flinch when things get tough changes how you build."
           name="HUSSEIN FAZAL"
           position="Co-Founder & CEO"
           img="/hussein-02.webp"
           logo="/super.webp"
         />
         <Card
-          topic="Strategic Relationships Beyond Borders"
-          sub="We connect you to the relationships that matter."
-          mess="Inovia acts as a second set of eyes, ears, and voice in global markets, especially in the GCC. They help drive on-the-ground market visibility, coordinate real-time on live conversations, and ensure our story lands. They’re not just a capital provider; they’re a true force multiplier."
+          topic="Strategic Global Reach"
+          sub="Connecting you to the rooms that matter."
+          mess="Siastes acts as our eyes and ears in global markets, especially the GCC. They drive on-the-ground visibility, coordinate real-time conversations, and make sure our story lands. They aren't just capital; they're a true force multiplier."
           name="AIDAN GOMEZ"
           position="Co-Founder & CEO"
           img="/aidan-02.webp"
           logo="/co.webp"
         />
         <Card
-          topic="Builder's Mindset, Operating Expertise"
-          sub="We show up every day to support you."
-          mess="Inovia acts as a second set of eyes, ears, and voice in global markets, especially in the GCC. They help drive on-the-ground market visibility, coordinate real-time on live conversations, and ensure our story lands. They’re not just a capital provider; they’re a true force multiplier."
+          topic="Built by Builders"
+          sub="We know what it takes to scale."
+          mess="They understand the operational reality of growing a company because they’ve been in the trenches. From navigating early hurdles to scaling our product, Siastes provided hands-on, practical guidance. They don't just advise—they roll up their sleeves."
           name="MICHAEL KATCHEN"
           position="Co-Founder & CEO"
           img="/michael-02.webp"
