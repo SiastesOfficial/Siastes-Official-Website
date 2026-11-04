@@ -27,13 +27,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/" className="font-neue text-sm text-black/60">
                 Home
               </Link>
-              {/* <Link href="/team" className="font-neue text-sm text-black/60">
+              <Link href="/team" className="font-neue text-sm text-black/60">
                 Team
-              </Link> */}
+              </Link>
               {/* <Link href="/" className="font-neue text-sm text-black/60">
                 Carees
               </Link> */}
-              <Link href="/" className="font-neue  text-sm text-black/60">
+              <Link href="/insights" className="font-neue  text-sm text-black/60">
                 Insights
               </Link>
             </div>

@@ -10,20 +10,20 @@ const newsArticles = [
     title:
       "Siastes Q3: significant portfolio rounds, 6 new investments, and key ecosystem events",
     imageSrc: "/inovia-q3-2026-newsletter-800x450.webp",
-    link: "/news/q3-update",
+    link: "/insights",
   },
   {
     id: 2,
     title:
       "The State of SaaS in 2026: Siastes releases new report on enterprise software trends",
     imageSrc: "/saas-report-2026.jpg",
-    link: "/news/saas-report",
+    link: "/insights",
   },
   {
     id: 3,
     title: "Welcome to the portfolio: Why we led the Series A in QuantumFlow",
     imageSrc: "/quantumflow-investment.jpg", 
-    link: "/news/quantumflow",
+    link: "/insights",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function News() {
         <div className="w-full flex items-center justify-between">
           <p className="text-3xl md:text-5xl font-bold">Latest News</p>
           <div className="flex items-center gap-2 hover:text-black/70 transition-colors">
-            <Link href="/news">
+            <Link href="/insights">
               <p className="text-sm text-nowrap">View all articles</p>
             </Link>
             <CaretRightIcon />
@@ -85,7 +85,7 @@ const NewsCard = ({
       <div className="border-t p-5 flex flex-col justify-between flex-grow">
         <p className="py-3 text-xl line-clamp-3">{title}</p>
         <div className="py-2 flex items-center gap-1">
-          <p className="text-black/60 group-hover:text-black transition-colors">
+          <p className="text-violet-600/60 group-hover:text-black transition-colors">
             Read more
           </p>
           <CaretRightIcon className="text-black/60 group-hover:text-black transition-colors" />
